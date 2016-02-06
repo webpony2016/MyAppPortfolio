@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.icareu.myappportfolio.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/spotify_streamer"
+        android:id="@+id/btnSpotifyStreamer"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:theme="@style/Base.Widget.AppCompat.Button" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/content_title"
+        android:id="@+id/tvContenTitle"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/abc_text_size_headline_material" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/scores_app"
+        android:id="@+id/btnScoresApp"
+        android:theme="@style/Base.Widget.AppCompat.Button"
+        android:layout_below="@+id/btnSpotifyStreamer"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/library_app"
+        android:id="@+id/btnLibraryApp"
+        android:theme="@style/Base.Widget.AppCompat.Button"
+        android:layout_below="@+id/btnScoresApp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/build_it_bigger"
+        android:id="@+id/btnBuildItBigger"
+        android:theme="@style/Base.Widget.AppCompat.Button"
+        android:layout_below="@+id/btnLibraryApp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/xyz_reader"
+        android:id="@+id/btnXyzReader"
+        android:theme="@style/Base.Widget.AppCompat.Button"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/capstone_my_own_app"
+        android:id="@+id/btnCapstone"
+        android:theme="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_below="@+id/btnXyzReader"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
