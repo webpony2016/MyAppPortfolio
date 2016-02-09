@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -13,14 +17,10 @@
     tools:showIn="@layout/activity_main">
 
     <Button
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
+        style="@style/Button"
         android:text="@string/spotify_streamer"
         android:id="@+id/btnSpotifyStreamer"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="51dp"
-        android:theme="@style/Base.Widget.AppCompat.Button" />
+        android:layout_alignParentTop="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -32,47 +32,34 @@
         android:textSize="@dimen/abc_text_size_headline_material" />
 
     <Button
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
+        style="@style/Button"
         android:text="@string/scores_app"
         android:id="@+id/btnScoresApp"
-        android:theme="@style/Base.Widget.AppCompat.Button"
-        android:layout_below="@+id/btnSpotifyStreamer"
-        android:layout_centerHorizontal="true" />
+        android:layout_below="@+id/btnSpotifyStreamer"/>
 
     <Button
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
+        style="@style/Button"
         android:text="@string/library_app"
         android:id="@+id/btnLibraryApp"
-        android:theme="@style/Base.Widget.AppCompat.Button"
-        android:layout_below="@+id/btnScoresApp"
-        android:layout_centerHorizontal="true" />
+        android:layout_below="@+id/btnScoresApp" />
 
     <Button
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
+        style="@style/Button"
         android:text="@string/build_it_bigger"
         android:id="@+id/btnBuildItBigger"
-        android:theme="@style/Base.Widget.AppCompat.Button"
-        android:layout_below="@+id/btnLibraryApp"
-        android:layout_centerHorizontal="true" />
+        android:layout_below="@+id/btnLibraryApp"/>
+
 
     <Button
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
+        style="@style/Button"
         android:text="@string/xyz_reader"
         android:id="@+id/btnXyzReader"
-        android:theme="@style/Base.Widget.AppCompat.Button"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_below="@+id/btnBuildItBigger"/>
 
     <Button
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
+        style="@style/Button"
         android:text="@string/capstone_my_own_app"
         android:id="@+id/btnCapstone"
-        android:theme="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
-        android:layout_below="@+id/btnXyzReader"
-        android:layout_centerHorizontal="true" />
+        android:layout_below="@+id/btnXyzReader" />
 </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>
